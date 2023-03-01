@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap");
+
+body {
+  background-color: #F4F6F9;
+}
+
+.header h1 {
+  padding: 15px;
+  text-align: left letter-spacing 1px;
+  background: #3CBCCF ;
+  color: rgb(255, 255, 255);
+  font-family: "Shantell Sans";
+  font-size: 22px;
+  width: 97.8%;
+  height: 30px;
+  border-top-right-radius: 30px 30px;
+  border-top-left-radius: 30px 30px;
+}
+
+main {
+  background-color: #F4F6F9;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+.main_section h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  background-color: #FFE1E9;
+  border-radius: 30px;
+  height: 44px;
+  align-content: left;
+}
+
+.main_section figure {
+  align-content: normal;
+}
+
+.aside table {
+
+  background-color:#FFE1E9;
+  font-family: arial, sans-serif;
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+  width: 300px;
+  height: 400px;
+  
+}
+
+td,
+th {
+  background-color:#FFE1E9;
+  text-align: center;
+  padding: 20px;
+}
+tr {
+  background-color: rgb(249, 240, 244);
+}
+
+.footer {
+  background: #3CBCCF ;
+  width: 100%;
+  height: 125px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+.footer_img :hover {
+  background-color: #FFE1E9;
+  border-radius: 22px;
+  border: 3px solid #FFE1E9;
+  margin: 15px;
+  
+}
